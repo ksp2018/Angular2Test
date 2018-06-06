@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./star-rating.component.css']
 })
 export class StarRatingComponent {
-  rateValue: number = 4;
+  // change this number to see different results
+  rateValue: number = 5;
 
     counter(i: number) {
       return new Array(i);
